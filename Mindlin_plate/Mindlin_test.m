@@ -4,9 +4,9 @@ close all
 clc
 
 %Dimensions
-Lx=1;
-Ly=1;
-h=0.001;
+Lx=0.01;
+Ly=0.01;
+h=500e-6;
 
 %Material parameters
 E=1.3e11;
@@ -117,13 +117,7 @@ q_plot(1:(2*N1+1),1:(2*N2+1))=reshape(-w_plot,2*N1+1,2*N2+1);
 
 surf(XX,YY,ZZ)
 hold on
-% surf(-XX,YY,ZZ)
-% surf(-XX,-YY,ZZ)
-% surf(XX,-YY,ZZ)
 surf(XX,YY,q_plot)
-% surf(-X,Y,q_plot)
-% surf(X,-Y,q_plot)
-% surf(-X,-Y,q_plot)
 axis([0 Lx 0 Ly])
 title("Displacement |Uz|(m) - Mindlin plate")
 colorbar

@@ -4,9 +4,9 @@ close all
 clc
 
 %Dimensions
-Lx=1;
-Ly=1;
-h=0.001;
+Lx=0.01;
+Ly=0.01;
+h=500e-6;
 
 %Material parameters
 E=1.3e11;
