@@ -1,5 +1,6 @@
-# Plate element (Kirchhoff-Love and reissner mindlin)
+# Plate element (Kirchhoff-Love and Reissner-Mindlin)
 
 ## Thermal deformation
-
-![](thermal_defor_Kirchhoff.png)
+Lirchhoff-Love             |  Reissner-Mindlin
+:-------------------------:|:-------------------------:
+![](thermal_defor_Kirchhoff.png) |  ![](thermal_defor_Mindlin.png)
