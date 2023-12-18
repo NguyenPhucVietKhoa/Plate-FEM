@@ -121,6 +121,7 @@ surf(XX,YY,q_plot)
 axis([0 Lx 0 Ly])
 title("Displacement |Uz|(m) - Mindlin plate")
 colorbar
+colormap turbo
 shading interp
 
 u_M=zeros((N1+1)*(N2+1),1);
