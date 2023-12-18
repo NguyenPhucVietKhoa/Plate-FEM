@@ -95,5 +95,4 @@ surf(XX,YY,q_plot)
 axis([0 Lx 0 Ly])
 title("Deplacement |Uz|(m) - Kirchhoff plate")
 colorbar
-colormap turbo
 shading interp
