@@ -91,13 +91,7 @@ q_plot(1:n1,1:n2)=reshape(-u_g(select_w),n1,n2);
 
 surf(XX,YY,ZZ)
 hold on
-% surf(-XX,YY,ZZ)
-% surf(-XX,-YY,ZZ)
-% surf(XX,-YY,ZZ)
 surf(XX,YY,q_plot)
-% surf(-X,Y,q_plot)
-% surf(X,-Y,q_plot)
-% surf(-X,-Y,q_plot)
 axis([0 Lx 0 Ly])
 title("Deplacement |Uz|(m) - Kirchhoff plate")
 colorbar
