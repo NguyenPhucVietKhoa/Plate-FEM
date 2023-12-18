@@ -1,1 +1,1 @@
-# Plate element (Kirchhoff_Love and reissner mindlin)
+# Plate element (Kirchhoff-Love and reissner mindlin)
