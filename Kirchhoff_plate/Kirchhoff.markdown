@@ -1,4 +1,4 @@
-# Elément de plaque de Kirchhoff-Love {#KC}
+# Elément de plaque de Kirchhoff-Love
 
 Le vecteur des déformations est décrit par :
 ```math
