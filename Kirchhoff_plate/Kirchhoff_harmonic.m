@@ -78,7 +78,7 @@ Jex=1+yex/l2;
 Dofex=round(2*n1+(Jex-1)*(2*2+(n1-2)*3)+2+(Iex-1)*3+1);
 
 
-f=0.1:0.1:30;
+f=0.1:0.5:600;
 w=2*pi*f;
 
 F=zeros(length(DOFI),1);
@@ -95,7 +95,6 @@ end
 
 figure(1)
 semilogy(f,abs(u_mes));
-
 
 x1_plot=0:l1:L1;
 x2_plot=0:l2:L2;
