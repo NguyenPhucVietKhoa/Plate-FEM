@@ -103,6 +103,7 @@ x2_plot=0:l2:L2;
 q_plot=zeros(n1,n2);
 h = surf(x2_plot,x1_plot,real(q_plot),'facecolor','interp','edgecolor','none');
 axis([0 L2 0 L1 -1e-5 1e-5]);
+set(gca,'color','none')
 axis off
 gif('Kirchhoff.gif')
 
