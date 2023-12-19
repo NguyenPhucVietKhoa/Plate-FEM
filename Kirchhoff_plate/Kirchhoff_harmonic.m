@@ -78,7 +78,7 @@ Jex=1+yex/l2;
 Dofex=round(2*n1+(Jex-1)*(2*2+(n1-2)*3)+2+(Iex-1)*3+1);
 
 
-f=0.1:0.5:600;
+f=0.1:0.1:30;
 w=2*pi*f;
 
 F=zeros(length(DOFI),1);
