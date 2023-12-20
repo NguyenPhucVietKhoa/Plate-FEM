@@ -5,12 +5,30 @@
 
 Kirchhoff-Love             |  Reissner-Mindlin
 :-------------------------:|:-------------------------:
-![](thermal_defor_Kirchhoff.png) |  ![](thermal_defor_Mindlin.png)
+![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/thermal_defor_Kirchhoff.png) |  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/thermal_defor_Mindlin.png)
 
 </div>
+
 ## Dynamic
+### Frequency response
 <div align="center">
   
-  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Kirchhoff_plate/Kirchhoff.gif)
+  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Frequency_response.png)
+  
+</div>
+
+### Eigenmodes
+<div align="center">
+
+Kirchhoff-Love             |  Reissner-Mindlin
+:-------------------------:|:-------------------------:
+![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Kirchhoff_harmonic.png) |  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Mindlin_harmonic.png)
+
+</div>
+
+### Temporal response
+<div align="center">
+  
+  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Kirchhoff.gif)
   
 </div>
