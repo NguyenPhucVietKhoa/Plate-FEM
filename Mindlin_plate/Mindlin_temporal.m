@@ -13,8 +13,8 @@ rho=7800;
 nu=0.3;
 k = 5/6;
 %numbers of elements
-N1=20;
-N2=20;
+N1=60;
+N2=60;
 
 %Element stiffness matrix
 l1=L1/N1;
@@ -75,10 +75,10 @@ DOFI=setdiff(DOFg,DOFb);
 
 M=Mgs(DOFI,DOFI);
 K=Kgs(DOFI,DOFI);
-C=0.001*M;
+C=0.001*M+2e-7*K;
 
-xex=5*l1;
-yex=5*l2;
+xex=30*l1;
+yex=30*l2;
 
 Iex=1+xex/l1;
 Jex=1+yex/l2;
@@ -120,8 +120,9 @@ q_plot=zeros(n1,n2);
 h = surf(x2_plot,x1_plot,real(q_plot),'facecolor','interp','edgecolor','none');
 axis([0 L2 0 L1 -1e-5 1e-5]);
 set(gca,'color','none')
+colormap turbo
 axis off
-%gif('Mindlin.gif')
+gif('Mindlin.gif')
 
 for t=2:length(time)
     if t==2
@@ -164,5 +165,5 @@ for t=2:length(time)
     q_plot=zeros(n1,n2);
     q_plot(1:n1,1:n2)=reshape(w_plot,n1,n2);
     set(h,'Zdata',real(q_plot));
-    %gif
+    gif
 end
