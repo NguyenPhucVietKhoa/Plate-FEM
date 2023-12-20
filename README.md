@@ -28,7 +28,10 @@ Kirchhoff-Love             |  Reissner-Mindlin
 
 ### Temporal response
 <div align="center">
+
+Kirchhoff-Love             |  Reissner-Mindlin
+:-------------------------:|:-------------------------:
+![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Kirchhoff.gif) |  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Mindlin.gif)
   
-  ![](https://github.com/NguyenPhucVietKhoa/Plate-FEM/blob/main/Image/Kirchhoff.gif)
   
 </div>
