@@ -17,7 +17,7 @@ Kirchhoff-Love             |  Reissner-Mindlin
   
 </div>
 
-### Eigenmodes
+### Modes
 <div align="center">
 
 Kirchhoff-Love             |  Reissner-Mindlin
